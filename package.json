@@ -4,15 +4,19 @@
   "description": "This is a demo application to practice building a production grade development using nodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js",
-    "start": "node index.js",
+    "dist": "npx tsc",
+    "dev": "nodemon src/index.ts",
+    "start": "node dist/index.js",
     "prepare": "husky"
   },
   "author": "Hasan Habib",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^22.13.13",
     "husky": "^9.1.7",
     "lint-staged": "^15.5.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
     "typescript": "^5.8.2"
   }
 }
