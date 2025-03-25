@@ -4,8 +4,14 @@
   "description": "This is a demo application to practice building a production grade development using nodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js",
+    "start": "node index.js",
+    "prepare": "husky"
   },
   "author": "Hasan Habib",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.0"
+  }
 }
