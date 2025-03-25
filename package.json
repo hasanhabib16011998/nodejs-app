@@ -1,0 +1,11 @@
+{
+  "name": "nodejs-app",
+  "version": "1.0.0",
+  "description": "This is a demo application to practice building a production grade development using nodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hasan Habib",
+  "license": "ISC"
+}
