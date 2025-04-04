@@ -1,1 +1,5 @@
-console.log('application is running');
+const flag = true;
+
+if (flag){
+         console.log('false');
+}
