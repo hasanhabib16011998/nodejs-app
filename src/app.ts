@@ -1,5 +1,5 @@
-const flag = true;
+import express, { Application } from 'express';
 
-if (flag){
-         console.log('false');
-}
+const app: Application = express();
+
+export default app;
