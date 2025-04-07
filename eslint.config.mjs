@@ -19,7 +19,7 @@ export default tseslint.config({
     'no-console': 'warn',
     'quotes': ['error', 'single', { allowTemplateLiterals: true }],
   },
-  ignores: ['node_modules', 'dist'],
+  ignores: ['node_modules', 'dist','migrations/**/*.ts'],
   extends: [
     eslint.configs.recommended,
     ...tseslint.configs.recommendedTypeChecked,
