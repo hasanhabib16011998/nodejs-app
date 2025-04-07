@@ -8,7 +8,7 @@ const server = app.listen(config.PORT);
 // eslint-disable-next-line @typescript-eslint/no-floating-promises
 (async() => {
   try {
-    // Database connection (You can actually connect here if needed)
+    // Database connection
     const connection = await databaseService.connect()
     logger.info('DATABASE_CONNECTION', {
       meta: {
