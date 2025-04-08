@@ -6,7 +6,7 @@ export default {
         // eslint-disable-next-line no-useless-catch
         try{
             await mongoose.connect(config.DATABASE_URL as string);
-            return mongoose.Connection
+            return mongoose.connection
 
         } catch (err){
             throw err;
